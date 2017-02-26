@@ -21,7 +21,6 @@ body {
 
 .photo p {
     text-align: center;
-    float: center;
     margin: 20px;
 }
 
@@ -54,9 +53,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-align: left;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 15px;
+    margin: 20px 0px 15px 30px;
 }
 
 .box1 p {
@@ -65,9 +62,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    margin: 10px 0px 10px 30px;
 }
 
 .box1 a {
@@ -78,27 +73,5 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 15px;
-}
-
-.item_1 {
-    font-family: Arial;
-    color: #1f1f1f;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
-.item_2 {
-    font-family: Arial;
-    color: #1f1f1f;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    margin-left: 30px;
-    margin-bottom: 15px;
+    margin: 10px 0px 10px 30px;
 }
