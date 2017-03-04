@@ -58,6 +58,7 @@ body {
     background: linear-gradient(0deg, #2e2e2e 0%, #4a4a4a 100%);
     border-right: 1px solid #838383;
     border-left: 1px solid #838383;
+    padding: 0 29px;
 }
 /*Контент*/
 .left-column {
@@ -87,7 +88,6 @@ body {
 
 .side-bar a {
     display: block;
-    width: 240;
     font-family: Arial;
     color: #656363;
     font-size: 13.33px;
@@ -100,26 +100,23 @@ body {
 .side-bar a:hover {
     background-color: #f9f9f9;
     width: 218px;
-    height: 38px;
 }
 
 .right-column {
-    width: 679;
-    margin-left: 290px;
+    float: right;
+    width: 679px;
 }
 
-.content img {
+.main img {
     display: inline-block;
-    border-style: solid;
-    border-width: 0px;
-    border-color: #c8c8c8;
+    border: 0 solid #c8c8c8;
     box-sizing: border-box;
     background-color: #ffffff;
     width: 678px;
     height: 400px;
 }
 
-.content p {
+.main p {
     float: right;
     width: 675;
     height: 141;
@@ -131,9 +128,13 @@ body {
     text-align: left;
     margin: 38px 50px 83px 30px;
 }
+
+.clear {
+    clear: both;
+}
+
 /* Меню футера */
 .footer {
-    clear: both;
     background-color: #e1e1e1;
     width: 966px;
     height: 40px;
