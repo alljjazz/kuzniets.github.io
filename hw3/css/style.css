@@ -23,7 +23,8 @@ body {
 .header img {
     width: 145px;
     height: 40px;
-    margin: 40px 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 /* Верхнее меню*/
 .header-menu ul {
@@ -59,15 +60,19 @@ body {
     border-left: 1px solid #838383;
 }
 /*Контент*/
-.content ul {
+.left-column {
     float: left;
+    width: 240;
+}
+
+.side-bar ul {
     box-sizing: content-box;
     background-color: #ffffff;
     width: 240px;
     height: 240px;
 }
 
-.content li {
+.side-bar li {
     display: block;
     text-align: left;
     list-style-type: none;
@@ -76,11 +81,11 @@ body {
     border-right: 1px solid #c8c8c8;
 }
 
-.content li:nth-child(6) {
+.side-bar li:nth-child(6) {
     border-bottom: 1px solid #c8c8c8;
 }
 
-.content a {
+.side-bar a {
     display: block;
     width: 240;
     font-family: Arial;
@@ -92,14 +97,18 @@ body {
     padding-left: 20px;
 }
 
-.content a:hover {
+.side-bar a:hover {
     background-color: #f9f9f9;
     width: 218px;
     height: 38px;
 }
 
+.right-column {
+    width: 679;
+    margin-left: 290px;
+}
+
 .content img {
-    float: right;
     display: inline-block;
     border-style: solid;
     border-width: 0px;
@@ -112,7 +121,7 @@ body {
 
 .content p {
     float: right;
-    width: 625;
+    width: 675;
     height: 141;
     font-family: Arial;
     color: #2c2b2b;
@@ -120,7 +129,7 @@ body {
     font-weight: 400;
     line-height: 21.333px;
     text-align: left;
-    margin: 38px 80px 83px 360px;
+    margin: 38px 50px 83px 30px;
 }
 /* Меню футера */
 .footer {
