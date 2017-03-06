@@ -1,11 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: #f9f9f9;
-    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.3);
     width: 1060px;
     height: 960px;
     margin: 0 auto;
@@ -28,7 +23,6 @@ body {
 }
 /* Верхнее меню*/
 .header-menu ul {
-    font-size: 0;
     display: inline-block;
     line-height: 40px;
     background: linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
@@ -49,7 +43,7 @@ body {
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     text-decoration: none;
     padding: 0 30px;
 }
@@ -63,7 +57,7 @@ body {
 /*Контент*/
 .left-column {
     float: left;
-    width: 240;
+    width: 240px;
 }
 
 .side-bar ul {
@@ -118,8 +112,6 @@ body {
 
 .main p {
     float: right;
-    width: 675;
-    height: 141;
     font-family: Arial;
     color: #2c2b2b;
     font-size: 13.33px;
