@@ -1,0 +1,127 @@
+body {
+    background: url(../img/bg.jpg);
+}
+
+.box {
+    margin: 0 auto;
+    width: 1000px;
+    background: #ffffff;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.logo img {
+    float: left;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+.header .contacts {
+    float: right;
+    margin: 10px 30px 30px 0;
+}
+
+.header .contacts h5 {
+    font-family: Tahoma;
+    color: #128aa7;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.header .contacts p {
+    font-family: Tahoma;
+    color: #128aa7;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.flags {
+    margin-right: 20px;
+}
+
+.flags figure {
+    float: right;
+    display: inline-block;
+    width: 51px;
+    margin: 19px 5px 0 5px;
+}
+
+.flags figcaption {
+    font-family: Tahoma;
+    color: #128aa7;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.flags p {
+    text-align: center;
+}
+/* Верхнее меню */
+.heade-img img {
+    border-top: 1px solid #138aa7;
+    border-bottom: 1px solid #138aa7;
+}
+
+.menu-header > ul {
+    height: 27px;
+    width: 1000px;
+    background: linear-gradient(to bottom, rgba(55, 55, 55, 1) 0%, rgba(48, 48, 48, 1) 100%);
+}
+
+.menu-header li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 3px 36px 0 36px;
+}
+
+.menu-header li a {
+    font-family: Tahoma;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4px;
+    text-decoration: none;
+}
+/* выпадающий список */
+.menu-header .submenu {
+    display: none;
+}
+
+/* Контент */
+.content {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.content .information,
+.content .news {
+    width: 208px;
+    background: #edeef0;
+}
+
+.content .information h4,
+.content .news h4 {
+    font-family: Tahoma;
+    color: #424c43;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px;
+}
+
+.content .information p,
+.content .news p {
+    font-family: Tahoma;
+    color: #424c43;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 0 15px;
+    border-bottom: 1px solid #c7cacf;
+}
