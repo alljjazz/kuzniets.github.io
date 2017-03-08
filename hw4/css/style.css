@@ -59,12 +59,12 @@ body {
 .flags p {
     text-align: center;
 }
-/* Верхнее меню */
-.heade-img img {
+
+.head-img img {
     border-top: 1px solid #138aa7;
     border-bottom: 1px solid #138aa7;
 }
-
+/* Верхнее меню */
 .menu-header > ul {
     height: 27px;
     width: 1000px;
@@ -74,21 +74,28 @@ body {
 .menu-header li {
     display: inline-block;
     list-style-type: none;
-    padding: 3px 36px 0 36px;
+    /*padding: 3px 36px 0 36px;*/
 }
 
 .menu-header li a {
+    display: block;
+    position: relative;
     font-family: Tahoma;
     color: #ebebeb;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    margin-top: 4px;
+    padding: 5px 36px 0 36px;
     text-decoration: none;
 }
 /* выпадающий список */
 .menu-header .submenu {
     display: none;
+    position: absolute;
+}
+
+.menu-header li a:hover + submenu {
+display: block;
 }
 
 /* Контент */
