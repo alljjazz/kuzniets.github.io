@@ -11,8 +11,12 @@ body {
 
 .logo img {
     float: left;
-    margin-top: 9px;
+    margin-top: 3px;
     margin-left: 20px;
+}
+
+.header-top {
+    height: 408px;
 }
 
 .header .contacts {
@@ -66,7 +70,6 @@ body {
 }
 /* Верхнее меню */
 .menu-header > ul {
-    height: 27px;
     width: 1000px;
     background: linear-gradient(to bottom, rgba(55, 55, 55, 1) 0%, rgba(48, 48, 48, 1) 100%);
 }
@@ -74,7 +77,6 @@ body {
 .menu-header li {
     display: inline-block;
     list-style-type: none;
-    /*padding: 3px 36px 0 36px;*/
 }
 
 .menu-header li a {
@@ -85,8 +87,12 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    padding: 5px 36px 0 36px;
+    padding: 10px 32px;
     text-decoration: none;
+}
+
+.menu-header li a sub {
+    font-size: 10px;
 }
 /* выпадающий список */
 .menu-header .submenu {
@@ -94,14 +100,32 @@ body {
     position: absolute;
 }
 
-.menu-header li a:hover + submenu {
-display: block;
+.menu-header li a:hover + .submenu {
+    display: block;
+    z-index: 1000;
 }
 
+.menu-header .submenu {
+    background-color: #303030;
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    border-top: 1px solid #000000;
+}
+
+.menu-header .submenu li {
+    display: block;
+    text-align: left;
+}
+
+.menu-header .submenu a {
+    font-family: Tahoma;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
 /* Контент */
 .content {
     display: flex;
-    height: 100vh;
     justify-content: space-between;
 }
 
@@ -131,4 +155,14 @@ display: block;
     text-align: left;
     padding: 0 15px;
     border-bottom: 1px solid #c7cacf;
+}
+/* Футер */
+.footer p {
+    font-family: Tahoma;
+    color: rgba(255, 255, 255, 0.8);
+    height: 18px;
+    padding: 9px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
 }
