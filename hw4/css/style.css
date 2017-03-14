@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Tahoma;
+    src: url(../fonts/tahoma.ttf);
+}
+
 body {
     background: url(../img/bg.jpg);
 }
@@ -25,7 +30,7 @@ body {
 }
 
 .header .contacts h5 {
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
     color: #128aa7;
     font-size: 12px;
     font-weight: 400;
@@ -33,49 +38,57 @@ body {
 }
 
 .header .contacts p {
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
     color: #128aa7;
     font-size: 12px;
     font-weight: 400;
     text-align: left;
 }
-
-
-
 /*спрайты*/
 .flags ul li {
     background: url(../img/spritesheet.png) no-repeat;
     display: inline-block;
     float: right;
-    height: 42px;
-    width: 42px;
+    height: 45px;
+    width: 45px;
     margin: 10px;
 }
 
-.flags ul li .maldives {
+.flags ul li.maldives {
     background-position: -109px -5px;
 }
 
-.sri-lanka {
+.flags ul li.sri-lanka {
     background-position: -213px -5px;
 }
 
-.bhutan {
+.flags ul li.bhutan {
     background-position: -5px -5px;
 }
 
-.tibet {
+.flags ul li.tibet {
     background-position: -265px -5px;
 }
 
-.nepal {
+.flags ul li.nepal {
     background-position: -161px -5px;
 }
 
-.india {
+.flags ul li.india {
     background-position: -57px -5px;
 }
 
+.flags ul li p {
+    margin-top: 47px;
+    display:block;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #128aa7;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+    white-space: nowrap;
+}
 /*.flags {
     margin-right: 20px;
 }
@@ -117,13 +130,14 @@ body {
 
 .menu-header li a {
     display: block;
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
     color: #ebebeb;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     padding: 10px 32px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .menu-header li a sub {
@@ -152,7 +166,7 @@ body {
 }
 
 .menu-header .submenu a {
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     font-weight: 400;
@@ -172,7 +186,7 @@ body {
 
 .content .information h4,
 .content .news h4 {
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
     color: #424c43;
     font-size: 18px;
     font-weight: 400;
@@ -182,7 +196,7 @@ body {
 
 .content .information p,
 .content .news p {
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
     color: #424c43;
     font-size: 14px;
     font-weight: 400;
@@ -193,7 +207,7 @@ body {
 }
 /* Футер */
 .footer p {
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
     color: rgba(255, 255, 255, 0.8);
     height: 18px;
     padding: 9px;
