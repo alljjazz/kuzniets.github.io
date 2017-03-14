@@ -44,6 +44,7 @@ body {
 
 /*спрайты*/
 .flags ul li {
+    background: url(../img/spritesheet.png) no-repeat;
     display: inline-block;
     float: right;
     height: 42px;
@@ -51,28 +52,28 @@ body {
     margin: 10px;
 }
 
-.maldives {
-    background: url(../img/sprites.png) -252px -4px;
+.flags ul li .maldives {
+    background-position: -109px -5px;
 }
 
 .sri-lanka {
-    background: url(../img/sprites.png) -202px -4px;
+    background-position: -213px -5px;
 }
 
 .bhutan {
-    background: url(../img/sprites.png) -153px -4px;
+    background-position: -5px -5px;
 }
 
 .tibet {
-    background: url(../img/sprites.png) -103px -4px;
+    background-position: -265px -5px;
 }
 
 .nepal {
-    background: url(../img/sprites.png) -53px -4px;
+    background-position: -161px -5px;
 }
 
 .india {
-    background: url(../img/sprites.png) -4px -4px;
+    background-position: -57px -5px;
 }
 
 /*.flags {
