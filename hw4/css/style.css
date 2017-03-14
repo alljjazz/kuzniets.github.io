@@ -40,7 +40,42 @@ body {
     text-align: left;
 }
 
-.flags {
+
+
+/*спрайты*/
+.flags ul li {
+    display: inline-block;
+    float: right;
+    height: 42px;
+    width: 42px;
+    margin: 10px;
+}
+
+.maldives {
+    background: url(../img/sprites.png) -252px -4px;
+}
+
+.sri-lanka {
+    background: url(../img/sprites.png) -202px -4px;
+}
+
+.bhutan {
+    background: url(../img/sprites.png) -153px -4px;
+}
+
+.tibet {
+    background: url(../img/sprites.png) -103px -4px;
+}
+
+.nepal {
+    background: url(../img/sprites.png) -53px -4px;
+}
+
+.india {
+    background: url(../img/sprites.png) -4px -4px;
+}
+
+/*.flags {
     margin-right: 20px;
 }
 
@@ -62,7 +97,7 @@ body {
 
 .flags p {
     text-align: center;
-}
+}*/
 
 .head-img img {
     border-top: 1px solid #138aa7;
@@ -106,7 +141,7 @@ body {
 
 .menu-header .submenu {
     background-color: #303030;
-    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.75);
     border-top: 1px solid #000000;
     width: 160px;
 }
