@@ -9,14 +9,16 @@
 </head>
 
 <body>
-
     <div class="header">
         <div class="add-menu">
             <ul>
-                <li><img src="img/flag.png" alt=""></li>
-                <li>Minhas Ofertas</li>
-                <li>Ola! <i>Entrar</i> ou <i>Cadastre-se</li>
+                <li><a href="" class="minhas-ofertas">Minhas Ofertas</a></li>
+                <li class="entrance">Ola! <a href="">Entrar</a> ou <a href="">Cadastre-se</a></li>
+                </a>
             </ul>
+        </div>
+        <div class="flag">
+            <a href=""><img src="img/flag.png" alt=""></a>
         </div>
         <div class="head-menu">
             <ul>
@@ -27,7 +29,6 @@
                 <a href=""><li>Ajuda</li></a>
             </ul>
         </div>
-        
     </div>
     <div style="clear: both"></div>
     <div class="flex">
@@ -38,23 +39,27 @@
             <div class="reg-form">
                 <form action="#" method="post">
                     <ul>
+                       <li class="fb">
+                           <!--<a href=""><img src="img/fbbutton.png" alt=""></a>-->
+                           <button><img src="img/f.png" alt="" class="logo-fb">Login with Facebook<img src="img/arrow.png" alt="" class="arrow-fb"></button>
+                       </li>
                         <li class="ou-line">
                             <span>OU</span>
                         </li>
                         <li>
-                            <input type="text" name="first-name" class="input-write" placeholder="Firs Name">
+                            <input type="text" name="first-name" class="input-write" placeholder="Firs Name" required>
                         </li>
                         <li>
-                            <input type="text" name="last-name" class="input-write" placeholder="Last Name">
+                            <input type="text" name="last-name" class="input-write" placeholder="Last Name" required>
                         </li>
                         <li>
-                            <input type="email" name="email" class="input-write" placeholder="Email Adress">
+                            <input type="email" name="email" class="input-write" placeholder="Email Adress" required>
                         </li>
                         <li>
-                            <input type="password" name="password" class="input-write" placeholder="Choose password">
+                            <input type="password" name="password" class="input-write" placeholder="Choose password" required>
                         </li>
                         <li>
-                            <input type="password" name="password-confirm" class="input-write" placeholder="Password Confirm">
+                            <input type="password" name="password-confirm" class="input-write" placeholder="Password Confirm" required>
                         </li>
                         <li>
                             <input type="checkbox" id="send-updates">

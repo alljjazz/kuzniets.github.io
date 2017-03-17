@@ -4,7 +4,8 @@
 }
 
 body {
-    background: url(../img/bg.jpg);
+    background: url(../img/bg1px.jpg);
+    background-repeat: repeat-x;
 }
 
 .box {

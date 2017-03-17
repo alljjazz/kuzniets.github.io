@@ -30,19 +30,47 @@ body {
     background: #4eabda;
     color: #ffffff;
 }
+/*флажок*/
+.flag {
+    float: right;
+}
 
+.flag a {
+    display: block;
+    padding: 5px 0px 5px 15px;
+    border-left: 1px solid #56a2dc;
+}
+/*Доп. меню*/
 .add-menu {
     float: right;
 }
 
 .add-menu li {
     display: inline-block;
+    padding: 11px 12px;
+    font-family: Tahoma;
+    color: #fefefe;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
 }
 
-.add-menu ul:first-child {
-    border-left: 1px solid 56a2dc;
+.add-menu li a {
+    font-family: Tahoma;
+    color: #fefefe;
+    font-size: 14px;
+    font-weight: 400;
 }
 
+.minhas-ofertas {
+    text-decoration: none;
+}
+
+.entrance {
+    background: linear-gradient(to bottom, #50aedb 1%, #2e7ac4 100%);
+    margin-right: 20px;
+}
 /*контент*/
 .flex {
     display: flex;
@@ -68,6 +96,28 @@ body {
     line-height: 61px;
     text-align: center;
     margin-bottom: 3px;
+}
+
+/*.fb {  просто добавленная кнопка
+    width: 276px;
+    height: 35px;
+    border: 0;
+    margin-top: 30px;
+}*/
+
+
+.fb button {
+    width: 276px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3b5798 0%,#2f4078 100%);
+    border: 0;
+    font-size: 15px;
+}
+
+.logo-fb {
+    padding: 0 35px 0 5px;
 }
 
 .ou-line span {
