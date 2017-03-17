@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.otf);
+}
+
 body {
     background: url(../img/bg.jpg) no-repeat;
     background-position: center center;
@@ -17,7 +22,7 @@ body {
 .head-menu li {
     display: inline-block;
     padding: 11px 12px;
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #60b5ed;
     font-size: 14px;
     font-weight: 400;
@@ -48,7 +53,7 @@ body {
 .add-menu li {
     display: inline-block;
     padding: 11px 12px;
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #fefefe;
     font-size: 14px;
     font-weight: 400;
@@ -57,7 +62,7 @@ body {
 }
 
 .add-menu li a {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #fefefe;
     font-size: 14px;
     font-weight: 400;
@@ -89,7 +94,7 @@ body {
 .form-header {
     background-color: rgba(0, 0, 0, 0.5);
     width: 560px;
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #ffffff;
     font-size: 24px;
     font-weight: 400;
@@ -97,38 +102,69 @@ body {
     text-align: center;
     margin-bottom: 3px;
 }
-
-/*.fb {  просто добавленная кнопка
+/*Кнопка ФБ*/
+.fb {
     width: 276px;
     height: 35px;
-    border: 0;
-    margin-top: 30px;
-}*/
-
-
-.fb button {
-    width: 276px;
-    height: 35px;
-    margin: 0;
-    padding: 0;
     background: linear-gradient(to bottom, #3b5798 0%,#2f4078 100%);
-    border: 0;
-    font-size: 15px;
+    border-style: none;
+    border-top: 1px solid #7588b3;
+    border-radius: 4px;
+    margin-top: 30px;
 }
 
-.logo-fb {
-    padding: 0 35px 0 5px;
+.fb i.fa-facebook-f {
+    color: #ffffff;
+    font-size: 20px;
+    border-right: 1px solid #4c68a9;
+    padding: 7px 12px;
+}
+
+li.fb p {
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+li.fb i.fa-angle-right {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+li.fb:hover {
+    background: linear-gradient(to top, #3b5798 0%,#2f4078 100%);
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+/*OU*/
+.ou-line {
+    display: flex;
+    width: 286px;
 }
 
 .ou-line span {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #999999;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
+    padding: 0 4px;
 }
 
+.ou-line hr {
+    flex-grow: 1;
+    color: #999999;
+    border-bottom: 1px solid #000000;
+}
+
+/*Поля формы*/
 .reg-form ul {
     display: flex;
     height: 552px;
@@ -143,7 +179,7 @@ body {
     width: 276px;
     height: 35px;
     border: 0;
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #fffbfb;
     font-size: 14px;
     font-weight: 400;
@@ -158,7 +194,7 @@ input:focus {
 }
 
 ::-webkit-input-placeholder {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #cccccc;
     font-size: 14px;
     font-weight: 400;
@@ -167,7 +203,7 @@ input:focus {
 }
 
 :-moz-placeholder {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #cccccc;
     font-size: 14px;
     font-weight: 400;
@@ -177,7 +213,7 @@ input:focus {
 }
 
 ::-moz-placeholder {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #cccccc;
     font-size: 14px;
     font-weight: 400;
@@ -187,7 +223,7 @@ input:focus {
 }
 
 :-ms-input-placeholder {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #cccccc;
     font-size: 14px;
     font-weight: 400;
@@ -197,7 +233,7 @@ input:focus {
 }
 
 label {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #cccccc;
     font-size: 14px;
     font-weight: 400;
@@ -209,7 +245,7 @@ label {
     width: 149px;
     height: 35px;
     background: linear-gradient(to bottom, #50aedb 1%, #2e7ac4 100%);
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
@@ -220,7 +256,7 @@ label {
 }
 
 #send-updates span {
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #cccccc;
     font-size: 14px;
     font-weight: 400;
@@ -234,7 +270,7 @@ label {
 
 .disclaimer {
     width: 309px;
-    font-family: Tahoma;
+    font-family: Helvetica, Arial, sans-serif;
     color: #cccccc;
     font-size: 11px;
     font-weight: 400;
