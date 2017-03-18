@@ -1,0 +1,27 @@
+tr,
+td {
+    border: 7px solid black;
+    height: 60px;
+    width: 60px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.last {
+    width: 240px;
+}
