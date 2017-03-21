@@ -46,7 +46,7 @@ body {
     text-align: left;
 }
 /*спрайты*/
-.flags ul li {
+.flags ul li a {
     background: url(../img/spritesheet.png) no-repeat;
     display: inline-block;
     float: right;
@@ -55,31 +55,31 @@ body {
     margin: 10px;
 }
 
-.flags ul li.maldives {
+.flags ul li a.maldives {
     background-position: -109px -5px;
 }
 
-.flags ul li.sri-lanka {
+.flags ul li a.sri-lanka {
     background-position: -213px -5px;
 }
 
-.flags ul li.bhutan {
+.flags ul li a.bhutan {
     background-position: -5px -5px;
 }
 
-.flags ul li.tibet {
+.flags ul li a.tibet {
     background-position: -265px -5px;
 }
 
-.flags ul li.nepal {
+.flags ul li a.nepal {
     background-position: -161px -5px;
 }
 
-.flags ul li.india {
+.flags ul li a.india {
     background-position: -57px -5px;
 }
 
-.flags ul li span {
+.flags ul li a span {
     margin-top: 47px;
     display:block;
     font-family: Tahoma, Arial, sans-serif;
