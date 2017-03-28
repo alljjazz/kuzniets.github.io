@@ -21,7 +21,12 @@ body {
 
 .head-menu li {
     display: inline-block;
+}
+
+.head-menu li a {
+    display: inline-block;
     padding: 11px 12px;
+    line-height: 14px;
     font-family: Helvetica, Arial, sans-serif;
     color: #60b5ed;
     font-size: 14px;
@@ -31,22 +36,22 @@ body {
     text-decoration: none;
 }
 
-.head-menu li:hover {
+.head-menu li a:hover {
     background: #4eabda;
     color: #ffffff;
 }
 /*флажок*/
-.flag {
-    float: right;
-}
-
-.flag a {
-    display: block;
+a.flag  {
+    display: inline-block;
     padding: 5px 0px 5px 15px;
     border-left: 1px solid #56a2dc;
 }
 /*Доп. меню*/
 .add-menu {
+    float: right;
+}
+
+.add-menu ul {
     float: right;
 }
 
@@ -73,8 +78,11 @@ body {
 }
 
 .entrance {
-    background: linear-gradient(to bottom, #50aedb 1%, #2e7ac4 100%);
     margin-right: 20px;
+}
+
+.add-menu li:hover {
+    background: linear-gradient(to bottom, #50aedb 1%, #2e7ac4 100%);
 }
 /*контент*/
 .flex {
@@ -87,7 +95,7 @@ body {
 
 .box {
     width: 560px;
-    height: 552px;
+    height: 562px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -140,7 +148,6 @@ li.fb i.fa-angle-right {
 
 li.fb:hover {
     background: linear-gradient(to top, #3b5798 0%,#2f4078 100%);
-    
 }
 
 .bold {
@@ -169,6 +176,10 @@ li.fb:hover {
 }
 
 /*Поля формы*/
+.reg-form {
+    height: 552px;
+}
+
 .reg-form ul {
     display: flex;
     height: 552px;
