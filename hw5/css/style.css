@@ -103,7 +103,7 @@ body {
     margin-bottom: 3px;
 }
 /*Кнопка ФБ*/
-.fb {
+li.fb {
     width: 296px;
     height: 35px;
     background: linear-gradient(to bottom, #3b5798 0%,#2f4078 100%);
