@@ -1,10 +1,10 @@
 @font-face {
-    font-family='Lucida Sans Unicode';
+    font-family:'Lucida Sans Unicode';
     src: url(../fonts/lucida-sans-unicode.ttf);
 }
 
 body {
-    width: 1000px;
+    width: 910px;
     height: 1310px;
     margin: 0 auto;
 }
@@ -19,7 +19,7 @@ body {
     letter-spacing: 0.45px;
     line-height: 25px;
     text-align: left;
-    margin: 14px 7px 7px 6px;
+    margin: 20px 7px 7px 6px;
 }
 
 .contacts a {
@@ -38,7 +38,7 @@ form.log-in {
     box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
     width: 494px;
     height: 27px;
-    margin: 11px 0px 10px 9px;
+    margin: 17px 0 0 9px;
     border-radius: 5px;
 }
 
@@ -113,7 +113,7 @@ div.top-right {
     border-radius: 25px;
     width: 76px;
     height: 21px;
-    margin: 12px 0 10px 17px;
+    margin: 18px 0 13px 16px;
 }
 
 div.top-right a.icon-home {
