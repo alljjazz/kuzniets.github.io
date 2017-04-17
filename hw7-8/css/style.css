@@ -27,7 +27,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /*position: relative;*/
   background: url(../img/bg.jpg) no-repeat;
   background-position: top center;
   height: 515px;
@@ -78,18 +77,21 @@
 
 .menu {
   display: flex;
+  position: relative;
+  width: 80%;
   /*flex-direction: column;*/
-  /*width: 80%;*/
 }
 
 .menu__list {
   visibility: hidden;
   position: absolute;
-  bottom: 0;
+  bottom: -135px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
   background: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .menu__list:hover {
@@ -103,16 +105,21 @@
 .menu__item {
   text-align: center;
   list-style: none;
-  width: 100%;
+  /*width: 100%;*/
+  border-top: 1px solid #523e5a;
+  border-bottom: 1px solid #3e3146;
+  line-height: 40px;
+  height: 41px;
 }
 
 .menu__link {
+  display: block;
   font-family: LeagueGothic;
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
   text-decoration: none;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .menu__link:hover {
@@ -125,8 +132,9 @@
   font-family: LeagueGothic;
   color: #ffffff;
   font-size: 24px;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
-  line-height: 34px;
+  padding: 0 5px;
+  border-bottom: 2px solid #edbfff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
 
 /*.menu {
